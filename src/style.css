@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
+
+body{
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 8vh;
+}
+
+section{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pfp{
+    width: 14vh;
+    height: 14vh;
+    border: 5px solid #a7c957;
+    border-radius: 100px;
+}
+
+section p{
+    font-family: Silkscreen;
+    font: 600;
+}
+
+section p strong{
+    font-size: 25px;
+}
+
+#intro{
+    font-size: 15px;
+}
+
+.links p{
+    background-color: rgb(238, 90, 65);
+    font-family: Poppins;
+    font: 600;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid rgb(238, 90, 65);
+    padding: 20px;
+    width: 40vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links p:hover{
+    color: black;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    background-color: rgba(255, 255, 255, 0.0);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    border: 2px solid salmon;
+    border-radius: 30px;
+    transition: 0.4s ease-in-out;
+}
+

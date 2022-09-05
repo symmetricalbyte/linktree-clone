@@ -1,0 +1,24 @@
+{
+  "name": "linktree-clone",
+  "version": "1.0.0",
+  "description": "Yet another linktree clone",
+  "main": "app.js",
+  "scripts": {
+    "publish": "node app.js",
+    "development": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symmetricalbyte/linktree-clone.git"
+  },
+  "author": "symmetricalbyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/symmetricalbyte/linktree-clone/issues"
+  },
+  "homepage": "https://github.com/symmetricalbyte/linktree-clone#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
